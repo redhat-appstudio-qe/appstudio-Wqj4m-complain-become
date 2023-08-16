@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: dc-metro-map-maxj
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-appstudio-qe/release-e2e-bundle-tenant/appstudio/dc-metro-map-maxj@sha256:bd86d20fb7286ef8fd2ce27ec2e45dbe65f317a2a79340cb2af6a6984f122bfd
         name: my-nodejs
         ports:
         - containerPort: 3001
